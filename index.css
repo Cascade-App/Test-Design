@@ -18,7 +18,7 @@ body{
 }
 
 #box{
-  height: 70%;
+  height: 75%;
   width: 50%;
 
   display: flex;
@@ -27,19 +27,34 @@ body{
   align-items: center;
 
   text-align: center;
+  font-family: 'Source Sans Pro', Helvetica;
 
   background: #0893FF;
   border-radius: 2%;
-  box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
+  box-shadow: 3px 3px 5px rgba(0,0,0,0.3);
 }
 
 #logo{
   height: 35%;
 }
 
-h1{
+#title{
+  width: 70%;
+}
+
+#subHeading{
+
+  max-width: 60%;
+
+  font-size: 2vw;
+  font-weight: lighter;
+  color: #addaff
+}
+
+#description{
+
+  width: 60%;
+
+  font-size: 1.2vw;
   color: white;
-  font-size: 5vh;
-  font-family: 'Lato', Helvetica;
-  font-weight: bold;
 }
