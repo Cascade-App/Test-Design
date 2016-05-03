@@ -35,20 +35,22 @@ body{
 }
 
 #logo{
-  height: 35%;
+  height: 30%;
 }
 
 #title{
   width: 70%;
 }
 
-#subHeading{
+#heading{
+  width: 100%;
+}
 
-  max-width: 60%;
+#subHeading{
 
   font-size: 2vw;
   font-weight: lighter;
-  color: #addaff
+  color: #addaff;
 }
 
 #description{
@@ -57,4 +59,8 @@ body{
 
   font-size: 1.2vw;
   color: white;
+}
+
+p#subHeading{
+  margin: 0;
 }
