@@ -26,11 +26,20 @@ body{
   justify-content: center;
   align-items: center;
 
+  text-align: center;
+
   background: #0893FF;
   border-radius: 2%;
   box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
 }
 
 #logo{
-  height: 250px
+  height: 35%;
+}
+
+h1{
+  color: white;
+  font-size: 5vh;
+  font-family: 'Lato', Helvetica;
+  font-weight: bold;
 }
