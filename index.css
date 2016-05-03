@@ -1,0 +1,27 @@
+body{
+  height: 100vh;
+  width: 100vw;
+  margin: 0px;
+}
+
+#bg{
+  height: 100%;
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-image: url("assets/waterfall2.jpg");
+  background-color: #0893FF;
+  background-size: cover;
+}
+
+#box{
+  height: 70%;
+  width: 50%;
+
+  background: #0893FF;
+  border-radius: 2%;
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
+}
