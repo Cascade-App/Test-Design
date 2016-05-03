@@ -35,7 +35,7 @@ body{
 }
 
 #logo{
-  height: 30%;
+  height: 25%;
 }
 
 #title{
@@ -53,14 +53,60 @@ body{
   color: #addaff;
 }
 
+p#subHeading{
+  margin: 0;
+}
+
 #description{
 
   width: 60%;
+  margin-top: 30px;
 
   font-size: 1.2vw;
   color: white;
 }
 
-p#subHeading{
-  margin: 0;
+#form{
+
+  width: 60%;
+
+  margin: 30px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#email{
+
+  height: 4vh;
+  width: 60%;
+
+  background: white;
+  border: none;
+  border-radius: 4vw;
+
+  outline: none;
+  padding: 5px 10px;
+
+  font-size: 2.5vh;
+  color: #0893FF;
+  text-align: center;
+}
+
+#submit{
+  height: 4vh;
+
+  background: #addaff;
+  border: none;
+  outline: none;
+  border-radius: 2vw;
+
+  color: white;
+}
+
+#submit:hover{
+  background: white;
+  color: #0893FF;
 }
