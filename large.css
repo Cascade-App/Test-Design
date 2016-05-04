@@ -1,0 +1,139 @@
+html{
+  background: #0893FF;
+}
+
+body{
+  height: 100vh;
+  width: 100vw;
+  margin: 0px;
+}
+
+#bg{
+  height: 100%;
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-image: url("assets/waterfall2.jpg");
+  background-color: #0893FF;
+  background-size: cover;
+}
+
+#box{
+  height: 75%;
+  width: 50%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+  font-family: 'Source Sans Pro', Helvetica;
+
+  background: #0893FF;
+  border-radius: 2%;
+  box-shadow: 3px 3px 5px rgba(0,0,0,0.3);
+}
+
+#logo{
+  height: 25%;
+}
+
+#title{
+  width: 70%;
+}
+
+#heading{
+  width: 100%;
+}
+
+#subHeading{
+
+  font-size: 2vw;
+  font-weight: lighter;
+  color: #addaff;
+}
+
+p#subHeading{
+  margin: 0;
+}
+
+#description{
+
+  width: 60%;
+  margin: 50px 0px 30px;
+
+  font-size: 2vh;
+  color: white;
+}
+
+#form{
+
+  width: 60%;
+
+  margin: 30px;
+}
+
+#input{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#email{
+
+  height: 4vh;
+  width: 60%;
+
+  background: white;
+  border: none;
+  border-radius: 4vw;
+
+  outline: none;
+  padding: 5px 10px;
+
+  font-size: 2.5vh;
+  color: #0893FF;
+  text-align: center;
+}
+
+#submit{
+  height: 4vh;
+
+  background: #addaff;
+
+  border: none;
+  outline: none;
+  border-radius: 4vw;
+  padding: 5px 10px;
+
+  color: white;
+  font-size: 1.5vh;
+}
+
+#submit:hover{
+  background: white;
+  color: #0893FF;
+}
+
+#info{
+
+  paddint-top: 4vh;
+
+  color: white;
+  font-weight: lighter;
+}
+
+#info a{
+  color: white;
+  padding-left: 5px;
+}
+
+footer{
+  color: #addaff;
+}
